@@ -71,6 +71,6 @@ PRODUCT_CERTIFICATE_OVERRIDES := \
     com.google.pixel.vibrator.hal:com.google.pixel.vibrator.hal.certificate.override \
     com.qorvo.uwb:com.qorvo.uwb.certificate.override
 
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/clover-priv/keys/releasekey
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/mica-priv/keys/releasekey
 PRODUCT_EXTRA_RECOVERY_KEYS :=
 PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES := $(dir $(PRODUCT_DEFAULT_DEV_CERTIFICATE))
